@@ -12,9 +12,11 @@ Log.d("Base64Image", base64String);
 
 # Main Code 
 
-private String convertDrawableImageToString(Drawable drawable) {
-    if (drawable == null) return null;
+'''
+private String convertDrawableImageToString(Drawable drawable){
 
+    if (drawable == null) return null;
+    
     // Drawable → Bitmap
     Bitmap bitmap = null;
     if (drawable instanceof BitmapDrawable) {
@@ -36,7 +38,9 @@ private String convertDrawableImageToString(Drawable drawable) {
     // ByteArray → Base64 String
     return Base64.encodeToString(imageBytes, Base64.DEFAULT);
 }
+'''
 
 
 # Bitmap তৈরি করার জন্য variable declare
+
    Bitmap bitmap = null;
