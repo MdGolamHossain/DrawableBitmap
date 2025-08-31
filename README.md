@@ -12,7 +12,8 @@ Log.d("Base64Image", base64String);
 
 # Main Code 
 
-'''private String convertDrawableImageToString(Drawable drawable){
+```
+private String convertDrawableImageToString(Drawable drawable){
 
     if (drawable == null) return null;
     
@@ -36,10 +37,7 @@ Log.d("Base64Image", base64String);
 
     // ByteArray → Base64 String
     return Base64.encodeToString(imageBytes, Base64.DEFAULT);
-}'''
-
-```javascript
-console.log("Hello, world!");
+}
 ```
 
 
