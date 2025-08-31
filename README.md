@@ -1,7 +1,7 @@
 # DrawableBitmap
 Convert Image, Shape, Vector  to Bitmap
 
-# From OnCretee Bundle  Pass Drawable Image 
+# From OnCrete Bundle  Pass Drawable Image 
 ```
 Drawable drawable = ContextCompat.getDrawable(this, R.drawable.my_image);
 String base64String = convertDrawableImageToString(drawable);
